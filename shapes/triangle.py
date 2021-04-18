@@ -12,7 +12,7 @@ class Triangle(Shape):
 
     @property
     def height(self):
-        return self.sides[0] * math.sin(self.sides[2])
+        return self.side[0] * math.sin(int(self.side[2]))
 
     @property
     def area(self):
